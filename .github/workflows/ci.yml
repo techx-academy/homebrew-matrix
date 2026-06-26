@@ -17,7 +17,7 @@ jobs:
       - name: Audit cask
         run: brew audit --cask --online techx-academy/matrix/matrix
       - name: Install cask
-        run: brew install --cask --no-quarantine techx-academy/matrix/matrix
+        run: brew install --cask techx-academy/matrix/matrix
       - name: Verify installed app
         run: |
           test -d "/Applications/Matrix.app"
