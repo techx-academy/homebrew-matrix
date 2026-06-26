@@ -1,11 +1,11 @@
-# Matrix Homebrew Tap
+# TechX Apps Homebrew Tap
 
 Homebrew cask distribution for Matrix on macOS.
 
 ## Install
 
 ```sh
-brew install --cask techx-academy/matrix/matrix
+brew install --cask techx-academy/apps/matrix
 ```
 
 ## Upgrade
